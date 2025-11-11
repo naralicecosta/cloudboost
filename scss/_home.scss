@@ -35,3 +35,27 @@
         }
     }
 }
+
+.s-recursos {
+    padding-top: 111px;
+    .top {
+        @include flexCenterJustify;
+        margin-bottom: 80px;
+        h3 {
+            max-width: 695px;
+        }
+        p {
+            color: $gray-200;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+        }
+    }
+    .all {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 111px;
+    }
+}
