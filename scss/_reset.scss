@@ -1,31 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     // font-family: 'Space Grotesk', sans-serif
     color: white;
-
 }
 
-html{
+html {
     background-color: #0a0b0d;
 }
-img{
-    width: 100%;
-    display: block;
+// img{
+//     width: 100%;
+//     display: block;
 
-}
-a{
+// }
+a {
     display: block;
     text-decoration: none;
 }
 
-button{
+button {
     all: unset;
     cursor: pointer;
 }
-ul{
+ul {
     list-style: none;
 }

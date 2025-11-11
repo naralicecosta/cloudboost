@@ -1,53 +1,53 @@
-.btn-primary{
+.btn-primary {
     border-radius: 100px;
     border: 1px solid rgba(255, 255, 255, 0.16);
     background-color: $purple-10;
     display: inline-block;
-    padding: 1.1rem 2.3rem;
+    padding: 11px 23px;
     font-size: 18px;
     font-weight: 500;
     line-height: 150%;
     color: $gray-100;
-    transition: background-color .3s ease;
+    transition: background-color 0.3s ease;
 
-    &:hover{
-        background-color: $purple-20 ;
+    &:hover {
+        background-color: $purple-20;
     }
     // @include responsivo ('laptop'){
     //     color: red;
     // }
 }
 
-.form-email{
+.form-email {
     border-radius: 100px;
     border: 1px solid rgba(255, 255, 255, 0.04);
     background: rgba(255, 255, 255, 0.04);
-    padding: 4px 4px 4px 2.4rem;
+    padding: 4px 4px 4px 24px;
     @include flex-center;
     width: 100%;
-    max-width: 52.1rem;
+    max-width: 521px;
     gap: 16px;
 
-    input{
+    input {
         all: unset;
-        flex:1;
+        flex: 1;
         color: $gray-100;
         font-size: 16px;
         font-weight: 400;
         line-height: 150%;
 
-        &::placeholder{
+        &::placeholder {
             color: $gray-300;
         }
     }
 }
 
-.card-recurso{
+.card-recurso {
     width: 100%;
-    max-width: 22.5rem;
+    max-width: 225px;
 
-    .icon{
-        width: 4.8rem;
+    .icon {
+        width: 48px;
         height: 48px;
         @include flexTotalCenter;
         border-radius: 4px;
@@ -56,40 +56,39 @@
         margin-bottom: 16px;
     }
 
-    .text
-    {
-        h6{
+    .text {
+        h6 {
             color: $gray-100;
-            font-size: 1.8rem;
+            font-size: 18px;
             font-weight: 700;
             line-height: 120%;
-            margin-bottom: 1.6rem;
+            margin-bottom: 16px;
         }
 
-        p{
+        p {
             color: $gray-300;
-            font-size: 1.6rem;
+            font-size: 16px;
             font-weight: 400;
             line-height: 150%;
         }
     }
 }
 
-.review{
+.review {
     @include flex-center;
     gap: 8px;
 
-    & > div{
+    & > div {
         @include flex-center;
         gap: 4px;
 
-        span{
+        span {
             color: $gray-100;
-            font-size: 1.8rem;
+            font-size: 18px;
             font-weight: 600;
             line-height: 150%;
 
-            strong{
+            strong {
                 font-weight: 400;
                 color: $gray-600;
             }

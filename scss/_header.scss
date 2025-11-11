@@ -2,7 +2,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 99999;
-    margin-top: 1.6rem;
+    margin-top: 16px;
     .content-header {
         border-radius: 100px;
         border: 1px solid rgba(255, 255, 255, 0.08);
@@ -12,10 +12,10 @@ header {
         padding: 8px 8px 8px 21px;
         .left-content {
             @include flex-center;
-            gap: 1.6rem;
+            gap: 16px;
             a {
                 @include flex-center;
-                gap: 0.8rem;
+                gap: 8px;
                 span {
                     color: $gray-200;
                     font-size: 16px;
