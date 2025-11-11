@@ -34,5 +34,29 @@ header {
                 }
             }
         }
+        .btn-mobile {
+            display: none;
+        }
+    }
+
+    @include responsivo("laptop") {
+    }
+
+    @include responsivo("tablet") {
+    }
+
+    @include responsivo("mobile") {
+        .content-header {
+            padding: 20px 25px;
+            .logo {
+                max-width: 135px;
+            }
+            .left-content {
+                display: none;
+            }
+            .btn-mobile {
+                display: block;
+            }
+        }
     }
 }
